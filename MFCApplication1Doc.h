@@ -17,7 +17,8 @@ public:
 
 public:
     virtual ~CMFCApplication1Doc();
-
+    afx_msg void OnFileSaveText();
+    afx_msg void OnFileSaveMynote();
 #ifdef _DEBUG
     virtual void AssertValid() const;
     virtual void Dump(CDumpContext& dc) const;
